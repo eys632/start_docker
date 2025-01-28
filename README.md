@@ -20,8 +20,9 @@ Docker 시스템 요구 사항:
 ### 2.2 WSL2 설치 및 설정
 
 1. **PowerShell(관리자 권한)**을 열고 다음 명령어를 실행:
-   ```powershell
-   wsl --install
+ ```powershell
+ wsl --install
+```
 
 2. 기본 WSL 버전을 WSL2로 설정:
 ```powershell
@@ -29,7 +30,6 @@ wsl --set-default-version 2
 ```
 
 3. 원하는 리눅스 배포판(예: Ubuntu)을 설치:
-
 ```powershell
 wsl --install -d Ubuntu
 ```
