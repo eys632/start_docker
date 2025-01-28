@@ -25,7 +25,7 @@ Docker 시스템 요구 사항:
    wsl --install -d Ubuntu
    ```
 
-**PowerShell(관리자 권한)**에서 다음 명령어를 실행하여 필요한 기능을 활성화합니다:
+PowerShell(관리자 권한)에서 다음 명령어를 실행하여 필요한 기능을 활성화합니다:
 ```
 dism.exe /online /enable-feature /featurename:Microsoft-Hyper-V /all
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all
