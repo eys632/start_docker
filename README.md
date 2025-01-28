@@ -36,7 +36,7 @@ wsl --install -d Ubuntu
 
 ### 2.3 Windows 기능 활성화
    
-**PowerShell(관리자 권한)**에서 다음 명령어를 실행하여 필요한 기능을 활성화:
+PowerShell(관리자 권한)에서 다음 명령어를 실행하여 필요한 기능을 활성화:
 ```powershell
 dism.exe /online /enable-feature /featurename:Microsoft-Hyper-V /all
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all
@@ -65,3 +65,8 @@ Docker Desktop 실행 후, Docker Engine이 "Running" 상태인지 확인
 
 - Docker 사용 중 관리자 권한이 필요하다면 사용자 계정을 `docker-users` 그룹에 추가
 - 설치 중 문제가 발생하거나 엔진이 멈춘 상태로 구동되지 않으면, WSL2 및 Windows 기능 설정 확인해야 함
+
+## 5. 참고 링크
+
+- [Docker Desktop 공식 다운로드](https://www.docker.com/products/docker-desktop)
+- [WSL 설치 및 사용 가이드](https://docs.microsoft.com/ko-kr/windows/wsl/)
