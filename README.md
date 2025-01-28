@@ -1,7 +1,7 @@
 # Windows 11 Pro에서 Docker 설치 및 환경 구성 가이드
 
 ## 1. 시스템 요구 사항
-Docker를 설치하고 정상적으로 작동시키기 위해 필요한 시스템 요구 사항은 다음과 같습니다:
+Docker 시스템 요구 사항:
 - **운영 체제**: Windows 10 64-bit (2004 이상) 또는 Windows 11 Pro/Enterprise/Education
 - **가상화 기술 활성화**: BIOS에서 Intel VT-x 또는 AMD-V 활성화 필요
 - **WSL2(Windows Subsystem for Linux 2)**: 최신 버전으로 설치 및 설정
@@ -9,8 +9,6 @@ Docker를 설치하고 정상적으로 작동시키기 위해 필요한 시스�
   - Hyper-V
   - Windows Subsystem for Linux
   - Virtual Machine Platform
-
----
 
 ## 2. 설치 단계
 
@@ -23,3 +21,5 @@ Docker를 설치하고 정상적으로 작동시키기 위해 필요한 시스�
 1. **PowerShell(관리자 권한)**을 열고 다음 명령어를 실행합니다:
    ```powershell
    wsl --install
+    wsl --set-default-version 2
+    wsl --install -d Ubuntu
