@@ -19,7 +19,7 @@ Docker 시스템 요구 사항:
 
 ### 2.2 WSL2 설치 및 설정
 
-1. **PowerShell(관리자 권한)**을 열고 다음 명령어를 실행:
+1. PowerShell(관리자 권한)에서 다음 명령어를 실행:
  ```powershell
  wsl --install
 ```
