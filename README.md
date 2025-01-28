@@ -21,5 +21,19 @@ Docker 시스템 요구 사항:
 1. **PowerShell(관리자 권한)**을 열고 다음 명령어를 실행합니다:
    ```powershell
    wsl --install
-    wsl --set-default-version 2
-    wsl --install -d Ubuntu
+   wsl --set-default-version 2
+   wsl --install -d Ubuntu
+   ```
+
+**PowerShell(관리자 권한)**에서 다음 명령어를 실행하여 필요한 기능을 활성화합니다:
+```
+dism.exe /online /enable-feature /featurename:Microsoft-Hyper-V /all
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all
+dism.exe /online /enable-feature /featurename:Windows-Subsystem-Linux /all
+```
+
+
+### 2. 설치 단계 - Docker Desktop 설치
+2.4 Docker Desktop 설치
+1. Docker 공식 웹사이트에서 Docker Desktop 설치 파일을 다운로드합니다.
+2. 설치 과정 중 기본 설정으로 진행하고, 설치 완료 후 Docker Desktop을 실행합니다.
