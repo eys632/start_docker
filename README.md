@@ -51,7 +51,7 @@ dism.exe /online /enable-feature /featurename:Windows-Subsystem-Linux /all
 ## 3. 설치 확인 및 점검
 
 ### 3.1 WSL2 기본 배포판 확인
-**PowerShell(관리자 권한)**에서 다음 명령어를 실행하여 WSL2가 기본 배포판으로 설정되어 있는지 확인:
+PowerShell(관리자 권한)에서 다음 명령어를 실행하여 WSL2가 기본 배포판으로 설정되어 있는지 확인:
 ```powershell
 wsl -l -v
 ```
