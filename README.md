@@ -57,7 +57,7 @@ wsl -l -v
 ```
 결과에서 사용 중인 리눅스 배포판이 기본값이며, 버전이 2로 표시되어야 함
 
-### 3. 설치 확인 및 점검 - Docker Engine 상태 확인
+### 3.2 Docker Engine 상태 확인
 Docker Desktop 실행 후, Docker Engine이 "Running" 상태인지 확인
 문제가 있을 경우 Docker Desktop 설정에서 WSL2를 기본 백엔드로 선택했는지 확인
 
