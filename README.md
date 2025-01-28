@@ -19,16 +19,16 @@ Docker 시스템 요구 사항:
 
 ### 2.2 WSL2 설치 및 설정
 
-1. **PowerShell(관리자 권한)**을 열고 다음 명령어를 실행합니다:
+1. **PowerShell(관리자 권한)**을 열고 다음 명령어를 실행:
    ```powershell
    wsl --install
 
-2. 기본 WSL 버전을 WSL2로 설정합니다:
+2. 기본 WSL 버전을 WSL2로 설정:
 ```powershell
 wsl --set-default-version 2
 ```
 
-3. 원하는 리눅스 배포판(예: Ubuntu)을 설치합니다:
+3. 원하는 리눅스 배포판(예: Ubuntu)을 설치:
 
 ```powershell
 wsl --install -d Ubuntu
@@ -45,8 +45,8 @@ dism.exe /online /enable-feature /featurename:Windows-Subsystem-Linux /all
 
 ### 2.4 Docker Desktop 설치
 
-1. Docker 공식 웹사이트(https://www.docker.com/products/docker-desktop)에서 Docker Desktop 설치 파일을 다운로드합니다.
-2. 설치 과정 중 기본 설정으로 진행하고, 설치 완료 후 Docker Desktop을 실행합니다.
+1. Docker 공식 웹사이트(https://www.docker.com/products/docker-desktop)에서 Docker Desktop 설치 파일을 다운로드
+2. 설치 과정 중 기본 설정으로 진행하고, 설치 완료 후 Docker Desktop을 실행
 
 ## 3. 설치 확인 및 점검
 
