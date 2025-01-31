@@ -1,5 +1,7 @@
-# Windows 11 Pro에서 Docker 설치 및 환경 구성 가이드
+내가 사용하고 있는 pc에는 wsl2가 정상적으로 활성화되지 않아 도카 엔진이 활성화되지 않음
 
+# Windows 11 Pro에서 Docker 설치 및 환경 구성 가이드
+ 
 ## 1. 시스템 요구 사항
 Docker 시스템 요구 사항:
 - **운영 체제**: Windows 10 64-bit (2004 이상) 또는 Windows 11 Pro/Enterprise/Education
